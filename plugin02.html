@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugin/jquery.myslide.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/es.css" />
+<script>
+    $(document).ready(function(){
+    	$.init_slide('imgstore','showhere',1,1,1000,1,5000,1);
+    });
+</script>
+</head>
+<body>
+  <div id=showhere align=center></div>
+  <div id=imgstore style="display:none">
+  	<img src=img/00031.jpg >
+  	<img src=img/00032.jpg title="my great image" >
+  	<img src=img/00033.jpg title="my great image33" >
+  	<img src=img/00034.jpg >
+  	<img src=img/00035.jpg >
+  	<img src=img/00036.jpg >
+  	<img src=img/00037.jpg >
+  	<img src=img/00038.jpg >
+    <img src=img/aa.jpg >
+
+  </div>
+</body>
+</html>
